@@ -1,0 +1,51 @@
+footer
+    display flex
+    margin-top 50px
+    height auto
+    background #1e1f24
+    color white
+    align-items center
+    padding: 40px
+
+footer figure 
+    width 100px
+.footer__sections
+    padding: 0 40px
+    display flex
+    font-family 'Oswald', sans-serif
+.footer__sections div
+    padding: 20px 0
+    display flex
+    flex-direction column
+    padding: 0 40px
+.footer__social-media
+    display flex
+    align-items center
+    margin-bottom 10px
+    align-items flex-end
+.footer__social-media p i 
+    padding: 20px 0px
+    
+.footer__input 
+    padding: 8px 30px
+    outline none
+    border none 
+.footer__button
+    padding 7px 10px
+    outline none
+    border none 
+    background #ff565b
+    color: white
+    cursor pointer
+    font-family 'Oswald', sans-serif 
+    font-size: 12px
+  @media screen and (min-width: 320px) and (max-width: 850px)
+    footer
+        flex-direction: column 
+    .footer__sections
+        flex-direction: column
+    .footer__sections div
+        flex-direction: row
+        justify-content: center
+    .footer__sections div a
+        padding: 10px 20px

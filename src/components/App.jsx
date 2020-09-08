@@ -1,6 +1,16 @@
 import React from 'react';
+import Header from './Header';
+import Section from './Section';
+import Footer from './Footer';
+import '../styles/global.styl';
 import '../styles/components/App.styl';
 
-const App = () => <h1>Hello React!</h1>;
+const App = () => (
+  <>
+    <Header />
+    <Section />
+    <Footer />
+  </>
+);
 
 export default App;
